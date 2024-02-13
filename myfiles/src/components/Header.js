@@ -113,7 +113,7 @@ const Header = () => {
     <nav className={`parent ${isHomeOrHomePage ? "black-bg" : "blue-bg"}`}>
       {!isHomeOrHomePage && (
         <Link to="/home" className="child_logo">
-          ET:)
+          EatTasty!
         </Link>
       )}
       <div className="buttons">
