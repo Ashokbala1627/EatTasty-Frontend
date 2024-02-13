@@ -140,7 +140,7 @@ a:hover .box7 {
   display: none;
 }
 
-@media (max-width: 551px) and (min-width: 350px) {
+@media (min-width: 350px) and (max-width: 551px) {
   .headfirst {
     font-size: 20px;
   }
