@@ -195,6 +195,9 @@ body {
  .carousel-container{
   width: 100%; 
  } 
+  .pricebox{
+    font-size:13px;
+  }
  img{
   width: 100%;
  }
