@@ -191,7 +191,7 @@ body {
   width: 30%;
   padding: 10px;
 }
-@media (max-width: 551px) and (min-width: 350px){
+@media (min-width: 551px) and (min-width: 350px){
  .carousel-container{
   width: 108%; 
  } 
