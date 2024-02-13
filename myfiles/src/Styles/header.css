@@ -28,6 +28,7 @@
   font-size: 100%;
   font-weight: bold;
   margin: 10px;
+  padding:10px;
   border-radius: 4px;
   display: flex;
 }
@@ -125,6 +126,7 @@
   }
   .child_logo{
     width:12px;
+    padding:2px;
   }
   .child_1login{
     font-size:10px;
