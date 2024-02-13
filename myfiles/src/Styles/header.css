@@ -119,8 +119,3 @@
 .googleLink {
   margin-top: 20px;
 }
-@media (max-width: 551px) and (min-width: 350px) {
-  .parent{
-    width: 500px;
-  }
-}
