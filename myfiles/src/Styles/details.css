@@ -193,7 +193,7 @@ body {
 }
 @media (min-width: 551px) and (min-width: 350px){
  .carousel-container{
-  width: 108%; 
+  width: 100%; 
  } 
  img{
   width: 100%;
