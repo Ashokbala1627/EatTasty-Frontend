@@ -156,8 +156,7 @@ a:hover .box7 {
   }
 
   .leftbox7 {
-    width: 100%;
-    margin-right: 0;
+    display:none;
   }
 
   .bigbox7 {
@@ -210,7 +209,7 @@ a:hover .box7 {
     height: 65px;
   }
   .sidebox7 {
-    display:none;
+    height: 300px;
   }
   .bigbox7 {
     box-shadow: none;
