@@ -23,8 +23,8 @@ function Details({ username, email }) {
 
   const [selectedTab, setSelectedTab] = useState(0);
   const [menuItems, setMenuItems] = useState([
-    { name: "Chicken Biriyani", price: 100, quantity: 0 },
-    { name: "Mutton Biriyani", price: 220, quantity: 0 },
+    { name: "Chicken", price: 100, quantity: 0 },
+    { name: "Mutton", price: 220, quantity: 0 },
     { name: "Naan", price: 20, quantity: 0 },
     { name: "Parotta", price: 15, quantity: 0 },
   ]);
