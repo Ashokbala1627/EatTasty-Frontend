@@ -222,4 +222,8 @@ body {
  .boxnone{
   padding: 2px;
  }
+  .online-btn{
+  font-size:10px;
+    padding:2px;
+  }
 }
