@@ -2,7 +2,7 @@
   "name": "myfiles",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://good-cyan-gopher-sari.cyclic.app",
+  "proxy": "https://good-cyan-gopher-sari.cyclic.app/",
   "dependencies": {
     "@greatsumini/react-facebook-login": "^3.3.3",
     "@react-oauth/google": "^0.12.1",
