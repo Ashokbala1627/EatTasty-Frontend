@@ -1,0 +1,126 @@
+.parent {
+  display: flex;
+  width: 100%;
+  background-color: #0e0e52;
+  padding: 10px 5px;
+  align-items: center;
+}
+.black-bg {
+  position: absolute;
+  background: transparent;
+  padding: 10px;
+  color: white; /* Adjust text color for better visibility on dark background */
+}
+
+.blue-bg {
+  background-color: #0e0e52;
+  color: white; /* Adjust text color for better visibility on dark background */
+}
+
+.child_logo {
+  justify-content: center;
+  width: 10%;
+  height: 38px;
+  background-color: white;
+  color: #0e0e52;
+  line-height: 40px;
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  width: 100%;
+  text-align: right;
+}
+
+.child_1login,
+.child_2create {
+  border: none;
+  font-size: 100%;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+}
+
+.child_2create {
+  border: 1.5px solid white;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.child_2create a,
+.child_1login a {
+  color: white;
+  margin-right: 10px;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  align-items: center;
+  margin: auto;
+}
+.modal-form h2 {
+  margin-bottom: 20px;
+}
+.modal-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.modal-form button {
+  padding: 10px 20px;
+  margin-right: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+.cancel {
+  margin-bottom: 10px;
+}
+.modal-form button:last-child {
+  margin-right: 0;
+}
+.modal-form button[type="button"] {
+  background-color: #ccc;
+  color: #333;
+}
+.modal-form button[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+}
+.modal-form button[type="button"] {
+  width: 100%;
+  margin-top: 10px;
+}
+.modal-form button[type="submit"]:hover {
+  background-color: #0e0e52;
+  color: white;
+}
+.modal-form button[type="button"]:hover {
+  background-color: red;
+  color: white;
+}
+.googleLink {
+  margin-top: 20px;
+}
+@media (max-width: 551px) and (min-width: 350px) {
+  .parent{
+    width: 500px;
+  }
+}

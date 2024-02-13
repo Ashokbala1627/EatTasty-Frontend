@@ -1,0 +1,220 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.carousel-container {
+  margin-bottom: 20px;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+  z-index: -3;
+}
+
+.react-tabs {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-right: 10px;
+  color: #0e0e52;
+  border: 1px solid #0e0e52;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.react-tabs__tab:hover {
+  background-color: #0e0e52;
+  color: white;
+}
+
+.react-tabs__tab--selected {
+  background-color: #0e0e52;
+  border-color: #0e0e52;
+}
+
+.react-tabs__tab-panel {
+  padding: 20px;
+}
+
+.tabHead {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.online-btn {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.subtotal {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.menu-modal .carousel .thumbs {
+  display: none;
+}
+
+.react-tabs__tab--selected {
+  background-color: #0e0e52 !important; /* Background color for selected tab */
+  color: white !important; /* Text color for selected tab */
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  margin: 0;
+  font-size: 100%;
+}
+
+.price {
+  text-align: center;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  padding: 5px;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 80%;
+  text-align: left; /* Align text straight */
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headingMenu {
+  background-color: #0e0e52;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.close,
+.addtocart {
+  padding: 10px;
+  border: none;
+}
+
+.close:hover {
+  background-color: red;
+  color: white;
+}
+
+.addtocart:hover {
+  background-color: greenyellow;
+  color: white;
+}
+
+.subTotal {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+.karts {
+  /* margin: 20px; */
+  padding: 10px;
+  border: none;
+}
+.boxnone {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: yellowgreen;
+  color: white;
+}
+.pricebox {
+  margin-top: 15px;
+  justify-content: center;
+  font-size: 100%;
+  padding: 10px;
+}
+.menu-item1 {
+  width: 30%;
+  padding: 10px;
+}
+@media (max-width: 551px) and (min-width: 350px){
+ .carousel-container{
+  width: 108%; 
+ } 
+ img{
+  width: 100%;
+ }
+ .menu-modal{
+  width: 460px;
+  font-size: 15px;
+ }
+ .headingMenu{
+  font-size: 15px;
+ }
+ .menu-item{
+  font-size: 15px;
+ }
+ .pricebox{
+  font-size: 10px;
+ }
+ .karts{
+  font-size: 10px;
+ }
+ .boxnone{
+  padding: 2px;
+ }
+}
