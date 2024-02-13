@@ -140,7 +140,7 @@ a:hover .box7 {
   display: none;
 }
 
-@media (min-width: 551px) and (min-width: 350px) {
+@media (max-width: 551px) and (min-width: 350px) {
   .headfirst {
     font-size: 20px;
   }
@@ -209,7 +209,7 @@ a:hover .box7 {
     height: 65px;
   }
   .sidebox7 {
-    width:100%;
+    width:400px;
   }
   .bigbox7 {
     box-shadow: none;
