@@ -222,4 +222,8 @@ a:hover .box7 {
   .paratext{
     font-size: 15px;
   }
+  section {
+    border:none;
+    box-shadow:none;
+  }
 }
