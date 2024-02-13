@@ -210,7 +210,7 @@ a:hover .box7 {
     height: 65px;
   }
   .sidebox7 {
-    height: 300px;
+    display:none;
   }
   .bigbox7 {
     box-shadow: none;
