@@ -33,6 +33,10 @@ main {
   line-height: 30px;
   font-weight: bold;
 }
+.suggestions{
+    width: 18.8%;
+    margin-right: 282px; 
+}
 
 .option {
   width: 90%;
